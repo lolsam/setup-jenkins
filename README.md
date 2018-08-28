@@ -18,11 +18,12 @@ As instructed, go to the listed path and cat out the password, paste it on the U
 	cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-<img width="1440" alt="screen shot 2018-08-27 at 11 43 06 pm" src="https://user-images.githubusercontent.com/30080956/44701174-110ef300-aa53-11e8-822c-c3a32d44004d.png">
 
 Go through the basic setup, install the recommended plugins or whatever plugins you desire. 
 
 Jenkins setup is complete! 
+
+<img width="1440" alt="screen shot 2018-08-27 at 11 43 06 pm" src="https://user-images.githubusercontent.com/30080956/44701174-110ef300-aa53-11e8-822c-c3a32d44004d.png">
 
 You are now on your way to creating a continuous integration pipeline :) 
 
