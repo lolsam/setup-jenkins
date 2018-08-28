@@ -3,5 +3,9 @@ This is a simple shell script to setup Jenkins on a CentOS server. Should work f
 
 Once you run the installjenkins script few more things are needed to finish the setup:
 
- - Jenkins runs on port 8080. Ensure port 8080 is open on your server. You can verify this with
-      netstat -tulnp | grep :8080 
+ - Jenkins runs on port 8080. Ensure port 8080 is open on your server. You can verify this with:
+	
+```
+     netstat -tulnp | grep :8080 
+```
+ 
