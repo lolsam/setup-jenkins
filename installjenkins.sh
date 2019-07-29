@@ -4,7 +4,7 @@
 clear
 
 #Run as root user
-if [ "${whoami}" != 'root' ]; then
+if [ "$(whoami)" != 'root' ]; then
  echo "You must be root to run this script!"
  exit 1
 else
