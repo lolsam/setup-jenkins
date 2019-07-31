@@ -29,6 +29,8 @@ systemctl enable jenkins
 #Start the Jenkins service
 systemctl restart jenkins
 
+sleep 5
+
 echo "Installation complete!"
 
 echo "Here is your initial Jenkins password: `cat /var/lib/jenkins/secrets/initialAdminPassword`"
