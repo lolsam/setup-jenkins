@@ -29,7 +29,7 @@ systemctl enable jenkins
 #Start the Jenkins service
 systemctl restart jenkins
 
-sleep 5
+sleep 10
 
 echo "Installation complete!"
 
